@@ -5,10 +5,9 @@ on:
     branches:
       - main    
 env:
-  APPLICATION_NAME: calculator-app
+  APPLICATION_NAME: CalculatorAPP
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository_owner }}/CalculatorAPP
-  
+  IMAGE_NAME: ${{ github.repository_owner }}/CalculatorAPP  
 
 jobs:
   DockerBuildPublish:
