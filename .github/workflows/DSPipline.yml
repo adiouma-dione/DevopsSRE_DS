@@ -9,6 +9,7 @@ env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository_owner }}/CalculatorAPP
   
+
 jobs:
   DockerBuildPublish:
     name: Docker Build & Publish
